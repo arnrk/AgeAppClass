@@ -19,8 +19,26 @@ namespace AgeAppClass
             else if (personsAgeEntered >= 66)
                 Console.WriteLine("Golden Years ");
 
+            else if (personsAgeEntered >= 23)
+                Console.WriteLine("Working For The Man ");
+
+            else if (personsAgeEntered >= 19)
+                Console.WriteLine("College Age ");
+
+            else if (personsAgeEntered >= 15)
+                Console.WriteLine("HighSchool ");
+
+            else if (personsAgeEntered >= 12)
+                Console.WriteLine("Middle School ");
+
+            else if (personsAgeEntered >= 5)
+                Console.WriteLine("Elementary School ");
+
+            else if (personsAgeEntered >= 3)
+                Console.WriteLine("PreSchool ");
+
             else
-                Console.WriteLine("You Are Young");
+                Console.WriteLine("You Are To Young To Use A Computer");
 
             }
         }
