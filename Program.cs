@@ -10,8 +10,13 @@ namespace AgeAppClass
 
             Console.WriteLine("Please Enter Your Age When Ready: ");
 
-            Console.ReadLine();
+            string personsAge = Console.ReadLine();
+            double personsAgeEntered = Convert.ToDouble(personsAge);
 
+            if (personsAgeEntered == 1) ;
+            {
+                Console.WriteLine("Wow");
+            }
         }
     }
 }
