@@ -13,10 +13,15 @@ namespace AgeAppClass
             string personsAge = Console.ReadLine();
             double personsAgeEntered = Convert.ToDouble(personsAge);
 
-            if (personsAgeEntered == 1) ;
-            {
-                Console.WriteLine("Wow");
+            if (personsAgeEntered >= 100)
+                Console.WriteLine("This program is for humans. Are You An Alien? ");
+
+            else if (personsAgeEntered >= 66)
+                Console.WriteLine("Golden Years ");
+
+            else
+                Console.WriteLine("You Are Young");
+
             }
         }
     }
-}
